@@ -21,7 +21,20 @@ img {
     border-radius: 5px;
     cursor: pointer;
 }
-
+.heading{
+    text-align: center;
+}
+.heading h3{
+    font-size: 35px;
+    font-weight: 800;
+    color: #181818;
+    margin-bottom: 30px;
+}
+.heading p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+}
 header {
     padding-top: 51px;
     background: url(../images/developer.png), url(../images/header_bg.png) #FFF8F3;
@@ -100,4 +113,83 @@ ul li a {
 #hero .hero__img img {
     width: 100%;
     height: auto;
+}
+
+
+
+
+
+
+
+
+
+#about__me{
+    margin-top:130px ;
+
+}
+#about__me .about__me__conntent{
+    width: 71%;
+    max-width: 1140px;
+    background-color: #FFF8F3;
+    margin: 0 auto;
+}
+#about__me .about__me__heading{
+   padding: 131px 0;
+}
+#about__me .about__cards{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+#about__me .about__cards .about__card{
+    text-align: center;
+}
+#about__me .about__cards .about__card p{
+    font-size: 20px;
+    color: #757575;
+}
+#about__me .about__cards .about__card h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #181818;
+}
+
+
+
+
+
+#what_i_do{
+    padding-top: 130px;
+}
+#what_i_do .what_i_do_heading{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+#what_i_do .what_i_do_cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 50px;
+}
+#what_i_do .what_i_do_card{
+    padding: 30px;
+    box-shadow: 0 6px 50px 0 #00000013;
+}
+#what_i_do .what_i_do_card img{
+    height: 44px;
+    width: 44px;
+    aspect-ratio: 1;
+    margin-bottom: 30px;
+}
+#what_i_do .what_i_do_card h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 20px;
+}
+#what_i_do .what_i_do_card p{
+    font-size: 17;
+    color: #757575;
+    line-height: 28px;
 }
